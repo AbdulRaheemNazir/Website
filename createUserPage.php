@@ -40,9 +40,10 @@ if (isset($_POST['submit'])){
     }
 }
 
-
-
 ?>
+
+
+
 
     <div class="container pb-5">
             <main role="main" class="pb-3">
@@ -97,17 +98,7 @@ if (isset($_POST['submit'])){
                         <input class="btn btn-primary" type="submit" value="Become a customer" name ="submit">
                    </div>
 
-<?php 
 
-
-    $string2 = mt_rand(10,99); 
-
-    $x = substr($errorfname,+3);//getting the first characters from $string1
-
-    $q = substr($errorlname,-2);//getting the first characters from $string1
-    //concatenate x and y together and assign to $result
-    $errorusername = $x.$q.$string2;//give the values for the parameters
-?>
 
                 </form>
             </div>
